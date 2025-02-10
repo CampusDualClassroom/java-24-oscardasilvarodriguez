@@ -22,18 +22,7 @@ public class Exercise24 {
         }
     }
     public static void main(String[] args) {
-
-            Queue<String> queue = createQueue();
-
-            // Crear y poblar la cola
-            createQueue();
-
-            // Comprobar el elemento en la cima de la cola
-            System.out.println("Elemento en la cima de la cola: " + queue.peek());
-
-            // Recorrer y vaciar la cola mostrando los elementos
-            System.out.println("Elementos de la cola:");
-            printAndEmptyQueue(queue);
+            printAndEmptyQueue(createQueue());
         }
 
 }
